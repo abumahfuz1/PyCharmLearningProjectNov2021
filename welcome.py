@@ -1,1 +1,5 @@
-print("hello Rahma, Ruhama and Saleh")
+print("Hello Rahma, Ruhama and Saleh")
+print("How are you doing?")
+print("Rahma said good, then Ruhama also said good")
+print("But Saleh did not say anything")
+print("Because he is in Michigan, and he is not listening us")
