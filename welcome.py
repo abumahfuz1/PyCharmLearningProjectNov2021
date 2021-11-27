@@ -79,6 +79,6 @@ def print_rahma():
     text = "Rama and Ruhama are very smart"
     print(text)
     print(text)
-    print(text)
+
 print_rahma()
 
