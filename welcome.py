@@ -19,7 +19,9 @@ print("Al-Ikhlas \"Training Academy")
 print("---- Asigning Value------")
 
 media = "Banglaamar Maltimedia"
-print(media)
+print(media + " was established in 2002")
+print(media.upper())
+print(media.lower())
 
 
 print("------ Concatination------")
