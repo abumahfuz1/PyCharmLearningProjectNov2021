@@ -24,4 +24,9 @@ print(media.upper())
 print(media.lower())
 print(media.upper().isupper())
 print(media.lower().isupper())
+print(len(media))
+print(media[0])
+
+
+
 print("------ Concatination------")
