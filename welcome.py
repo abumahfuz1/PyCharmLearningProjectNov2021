@@ -31,7 +31,14 @@ print(media[0])
 print("------ Concatination------")
 print("------ Input-----")
 
+
 name = input("Enter your name: ")
 age = input("Enter your age: ")
-
 print("Hello " + name + "! You are " + age )
+
+print("------ Input Calculator-----")
+
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = int(num1) + int(num2)
+print(result)
