@@ -37,3 +37,7 @@ print(3+4*3/2.5)
 print(3*(4+5))
 print("------ Remainder-----")
 print(14%3) #reminder
+
+my_num = 5
+print(my_num)
+print ("my number is",  + my_num *5)
