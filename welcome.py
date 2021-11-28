@@ -36,8 +36,13 @@ print(2.89845)
 print(3+4*3/2.5)
 print(3*(4+5))
 print("------ Remainder-----")
-print(14%3) #reminder
+print(14%3) #reminder 14/3=4 reainder 2
 
-my_num = 5
+my_num = -5
 print(my_num)
 print ("my number is",  + my_num *5)
+print(str(my_num) + " my favorite number")
+print(abs(my_num))  #absolute value
+print(pow(2,5)) #2x2x2x2
+print(max(4,6))
+print(min(4,6))
