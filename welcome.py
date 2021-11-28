@@ -22,6 +22,6 @@ media = "Banglaamar Maltimedia"
 print(media + " was established in 2002")
 print(media.upper())
 print(media.lower())
-
-
+print(media.upper().isupper())
+print(media.lower().isupper())
 print("------ Concatination------")
