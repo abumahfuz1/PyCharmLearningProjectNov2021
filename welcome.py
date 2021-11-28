@@ -47,3 +47,6 @@ print(pow(2,5)) #2x2x2x2
 print(max(4,6))
 print(min(4,6))
 print(round(4.6))
+from math import *
+print(floor(4.6))
+print(ceil(4.2))
