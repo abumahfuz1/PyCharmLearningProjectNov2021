@@ -10,3 +10,16 @@ print("She is very smart")
 print("Rahma has a baby sister")
 print("Her name is Ruhama")
 print("Ruhama is " +sister_age + " years old")
+
+
+print("Al-Ikhlas \nTraining \nAcademy")
+
+print("Al-Ikhlas \"Training Academy")
+
+print("---- Asigning Value------")
+
+media = "Banglaamar Maltimedia"
+print(media)
+
+
+print("------ Concatination------")
