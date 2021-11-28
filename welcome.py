@@ -18,7 +18,9 @@ print("Al-Ikhlas \"Training Academy")
 
 print("---- Asigning Value------")
 
-media = "Banglaamar Maltimedia"
+print("------ Concatination------")
+
+media = "Banglaamar Multimedia"
 print(media + " was established in 2002")
 print(media.upper())
 print(media.lower())
@@ -26,7 +28,12 @@ print(media.upper().isupper())
 print(media.lower().isupper())
 print(len(media))
 print(media[0])
+print(media.index("Multimedia"))
+print(media.replace("Banglaamar", "NovaBangla"))
 
-
-
-print("------ Concatination------")
+print("------ Working with Numbers------")
+print(2.89845)
+print(3+4*3/2.5)
+print(3*(4+5))
+print("------ Remainder-----")
+print(14%3) #reminder
