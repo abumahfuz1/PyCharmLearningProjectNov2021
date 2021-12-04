@@ -1,18 +1,17 @@
-coordinates = [(4,5), (6,7), (80, 34)]
-coordinates[1] = 10
-print(coordinates [1])
+print("#### Comments are Fun ######")
 
 
-print("#### Functions  ######")
-def translate(phrase):
-    translation = " "
-    for letter in phrase:
-        if letter.lower() in "aeiou":
-            if letter.isupper():
-                translation = translation + " G "
-            else:
-                translation = translation + letter + "g"
-        else:
-            translation = translation + letter
-    return translation
-print((translate((input("Enter a phrase: ")))))
+# This is just comment, nothing to execute
+#hdfkdjhds
+#hdfjkjkhjjkfdssfsd
+#dfksddksfg;a
+
+print( "Multiple line comments")
+print( "Just write comments between '''    '''")
+
+'''
+helllo
+these are just comment lines, should
+should not be executed
+
+'''
