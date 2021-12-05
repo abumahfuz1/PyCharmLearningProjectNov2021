@@ -1,17 +1,10 @@
-print("#### Comments are Fun ######")
+print("#### Try Except block ---Error / Exception Handing ######")
+try:
+    #value = 10/0
+    number = int(input("Enter a number: "))
+    print(number)
 
-
-# This is just comment, nothing to execute
-#hdfkdjhds
-#hdfjkjkhjjkfdssfsd
-#dfksddksfg;a
-
-print( "Multiple line comments")
-print( "Just write comments between '''    '''")
-
-'''
-Commented out code
-helllo
-these are just comment lines, should
-should not be executed
-'''
+except ZeroDivisionError as err :
+    print("Divided by zero")
+except ValueError:
+    print("Invalid Input")
