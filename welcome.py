@@ -1,6 +1,4 @@
 
-
-
 a=10 #decimal
 print(a)
 print(type(a))
@@ -64,3 +62,64 @@ print("")
 #Accepts values from 0-9 and a to f (total 16)
 #Accept alphabets from a to f or A to F (6 alphabest)
 #prefix for Ocatal is 0x or 0X
+
+a=0xface
+b=0xabcd
+c=0xfedcba
+print("Hexa Decimal value for 0xface is ", a)
+print("Hexa Decimal value for 0xabcd is ",b)
+print("Hexa Decimal value for 0xfedcba is " ,c)
+
+print("")
+print("###########DECI-OCTA-HEXA DECIMAL VALUE##############")
+print("")
+Decimal=10
+Binary=0b11
+Octal=0o674
+Hexa=0x6748
+print("Base value for Decimal form is ", Decimal)
+print("Base value for Binary form is ", Binary)
+print("Base value for Octal form is ", Octal)
+print("Base value for Hexa form is ", Hexa)
+
+
+print("")
+print("#########  RELATIONAL OPERATOR ##############")
+print("")
+#==, !=, <, >, <=, >=
+A=100 #DS
+B=200
+print("a=b is: " ,a==b)
+
+
+print("")
+print("######### ASSIGNMENT OPERATORS  ##########")
+print("")
+#=-> Assignment Operators
+#== Comparison Operators
+#+= add and assign
+a=100
+print("Before assigning-adding value of b ", a)
+b=20
+a+=b #a=> a+b
+print("After adding value of b to a", a)
+
+
+#-= subtract and assign
+a=300
+print("Before assigning-subtracting value of b ", a)
+a-=b  #a=> a-b
+print("After subtracting value of b to a", a)
+
+#*= Multiply and assign
+a=25
+print("Before assigning-multiplying value of b ", a)
+a*=b  #a=> a-b
+print("After multiplying value of b to a", a)
+
+
+#/= Devide and assign
+a=25
+print("Before assigning-deviding value of b ", a)
+a/=b  #a=> a-b
+print("After deviding the value of b to a", a)
