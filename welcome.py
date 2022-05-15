@@ -135,3 +135,25 @@ print("a>b or a=b: ", a>b or a==b)
 a=20
 b=21
 print("a<b or a=b: ", a<b or a==b)
+
+print("")
+print("#########  IN - NOT IN MEMBERSHIP OPERATOR  ##########")
+print("")
+
+#True or False
+#1. in
+#2. Not in
+#to check the value in the object
+#if existed then it will return True
+#if not existed then it will return False
+
+x="PYTHEON"
+print("H" in x)
+print("h" in x)
+
+A=[90,89,30,40]
+
+A=[90,89,30,40]
+print(A)
+print(type(A))
+print(90 not in A)
