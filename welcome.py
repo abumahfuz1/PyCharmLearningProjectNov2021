@@ -1,65 +1,21 @@
-print("Hello Rahma, Ruhama and Saleh")
-print("How are you doing?")
-print("Rahma said good, then Ruhama also said good")
-print("But Saleh did not say anything")
-print("Because he is in Michigan, and he does not know what we are talking about")
-print("Rahma and Ruhama said, we need to clean up our dad and moms room")
-print("Rahma  Ruhama are happy about their parents")
 
-print (5==4)
-print(5==5)
-print(5!=4)
-print(5>=4)
-print(5<=4)
+a=10
+print(a)
+print(type(a))
 
-Rahma_Age = 7
-Ruhama_Age = 5
-Age_at_Kindergarten = 5
-Age_at_2grade = 7
+#function creation
+b=100
+c=50
+def f1():
+    print("Global variable is," ,b)
 
-print(Ruhama_Age == Age_at_Kindergarten)
-print(Rahma_Age == Age_at_Kindergarten)
-print(Age_at_2grade == Rahma_Age)
+#Function calling
+f1() #this will provide the result of b value
 
-if Rahma_Age < Age_at_2grade:
-    print("Rahma should not be in Kindergarten")
-elif Rahma_Age > Age_at_2grade:
-    print("Rahma should not be in 2nd grade")
-else:
-    print("Rahma should be in 2nd grade")
-
-print("####################################")
-print("####################################")
-print("          ")
-print("Ruhama")
-print("          ")
-print("          ")
-print("          ")
-print("          ")
-
-#print("Hello Rahma, Ruhama and Saleh")
-#print("How are you doing?")
-#print("Rahma said good, then Ruhama also said good")
-#print("But Saleh did not say anything")
-#print("Because he is in Michigan, and he does not know what we are talking about")
-#print("Rahma and Ruhama said, we need to clean up our dad and moms room")
-#print("Rahma  Ruhama are happy about their parents")
-
-
-
-Rahma_Age = 7
-Ruhama_Age = 5
-Age_at_Kindergarten = 5
-Age_at_2grade = 7
-
-print(Ruhama_Age == Age_at_Kindergarten)
-print(Rahma_Age == Age_at_Kindergarten)
-print(Age_at_2grade == Rahma_Age)
-
-if Ruhama_Age != Age_at_Kindergarten:
-    print("Ruhama should not be in 2nd grade")
-elif Ruhama_Age > Age_at_Kindergarten:
-    print("Ruhama should not be in Kindergarten")
-else:
-    print("Ruhama should be in Kindergarten")
-
+a=12 #Global
+def f1():
+    print("Global variable is, " ,a)
+def f2():
+    print("Global variable is, " ,c)
+f1()
+f2()
