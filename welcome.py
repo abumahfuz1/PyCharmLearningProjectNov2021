@@ -123,3 +123,15 @@ a=25
 print("Before assigning-deviding value of b ", a)
 a/=b  #a=> a-b
 print("After deviding the value of b to a", a)
+
+print("")
+print("######### LOGICAL EXPRESSION  ##########")
+print("")
+
+a=20
+b=21
+print("a>b or a=b: ", a>b or a==b)
+
+a=20
+b=21
+print("a<b or a=b: ", a<b or a==b)
