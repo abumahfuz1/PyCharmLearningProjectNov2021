@@ -4,7 +4,7 @@ print(a)
 print(type(a))
 
 #function creation
-b=100
+b=101
 c="Test"
 def f1():
     print("Global variable for f1-b is," ,b)
