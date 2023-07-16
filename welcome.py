@@ -56,10 +56,10 @@ print(Ruhama_Age == Age_at_Kindergarten)
 print(Rahma_Age == Age_at_Kindergarten)
 print(Age_at_2grade == Rahma_Age)
 
-if Ruhama_Age != Age_at_2grade:
-    print("Ruhama should not be in Kindergarten")
+if Ruhama_Age < Age_at_2grade:
+    print("Ruhama should not be in 2nd grade")
 elif Ruhama_Age > Age_at_Kindergarten:
-    print("Ruhama should be in 1st or 2nd grade")
+    print("2-Ruhama should be in 1st or 2nd grade")
 else:
     print("Ruhama should be in Kindergarten")
 
