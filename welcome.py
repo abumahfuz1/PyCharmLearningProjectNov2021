@@ -1,5 +1,5 @@
-print("Hello Rahma, Ruhama and Saleh")
-print("How are you doing?")
+print("1-Hello Rahma, Ruhama and Saleh")
+print("2-How are you doing?")
 print("Rahma said good, then Ruhama also said good")
 print("But Saleh did not say anything")
 print("Because he is in Michigan, and he does not know what we are talking about")
@@ -12,8 +12,8 @@ print(5!=4)
 print(5>=4)
 print(5<=4)
 
-Rahma_Age = 7
-Ruhama_Age = 5
+Rahma_Age = 9
+Ruhama_Age = 7
 Age_at_Kindergarten = 5
 Age_at_2grade = 7
 
@@ -22,9 +22,9 @@ print(Rahma_Age == Age_at_Kindergarten)
 print(Age_at_2grade == Rahma_Age)
 
 if Rahma_Age < Age_at_2grade:
-    print("Rahma should not be in Kindergarten")
+    print("1-Rahma should be ub 1st grade ir KG")
 elif Rahma_Age > Age_at_2grade:
-    print("Rahma should not be in 2nd grade")
+    print("Rahma should be in 3rd or 4th  grade")
 else:
     print("Rahma should be in 2nd grade")
 
@@ -47,8 +47,8 @@ print("          ")
 
 
 
-Rahma_Age = 7
-Ruhama_Age = 5
+Rahma_Age = 9
+Ruhama_Age = 7
 Age_at_Kindergarten = 5
 Age_at_2grade = 7
 
@@ -56,10 +56,10 @@ print(Ruhama_Age == Age_at_Kindergarten)
 print(Rahma_Age == Age_at_Kindergarten)
 print(Age_at_2grade == Rahma_Age)
 
-if Ruhama_Age != Age_at_Kindergarten:
-    print("Ruhama should not be in 2nd grade")
-elif Ruhama_Age > Age_at_Kindergarten:
+if Ruhama_Age != Age_at_2grade:
     print("Ruhama should not be in Kindergarten")
+elif Ruhama_Age > Age_at_Kindergarten:
+    print("Ruhama should be in 1st or 2nd grade")
 else:
     print("Ruhama should be in Kindergarten")
 
